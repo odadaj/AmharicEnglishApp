@@ -1,0 +1,80 @@
+<android.support.design.widget.CoordinatorLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <ImageView
+            android:contentDescription="@string/lindabrand"
+            android:id="@+id/imgQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"/>
+
+
+    <TextView
+            android:id="@+id/quizLetter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Heading"
+            android:padding="10dp"
+            android:paddingLeft="@dimen/fab_margin"
+            android:textColor="@color/colorKuraRed"
+            android:textSize="40sp"
+            android:textStyle="bold|italic"
+            android:layout_gravity="top|center"
+            android:layout_marginTop="2dp"/>
+    <RadioGroup
+            android:id="@+id/radioQuiz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="20dp">
+
+        <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text"
+                android:textColor="@color/colorKuraRed"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2dp"/>
+
+        <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorKuraRed"
+                android:text="text"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2dp"/>
+        <RadioButton
+                android:id="@+id/radio3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text"
+                android:textColor="@color/colorKuraRed"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:padding="2dp"/>
+
+    </RadioGroup>
+
+    <TextView
+            android:id="@+id/amLetter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Matunda"
+            android:textColor="@color/colorKuraRed"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:layout_gravity="bottom|center"
+            android:layout_marginBottom="10dp"
+             android:visibility="invisible"/>
+
+
+</android.support.design.widget.CoordinatorLayout>

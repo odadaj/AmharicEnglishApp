@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Amharic English Kids Tutor</string>
+    <string name="settings">Settings</string>
+    <string name="lindaslogan">&#169; EFA- Education For Africa</string>
+    <string name="copyright"> CS6460 Educational Technology </string>
+    <string name="lindabrand">Kids Amharic English Tutor</string>
+    <string name="camera_button">&#xf030; Take Picture</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="starStart">Start</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#dc3f2c</color>
+    <color name="colorPrimaryDark">#4f4d4d</color>
+    <color name="colorAccent">#4f4d4d</color>
+    <color name="colorKura">#f38d1f</color>
+    <color name="colorSlogan">#018c34</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorKuraBlue">#01aef0</color>
+    <color name="colorKuraRed">#dc3f2c</color>
+    <color name="titlebackgroundcolor">#e55b0b</color>
+    <color name="titletextcolor">#FFFF00</color>
+    <color name="button_normal">#FF1FAA70</color>
+    <color name="button_pressed">#FF3DED91</color>
+</resources>
